@@ -59,7 +59,11 @@ section h2 {
 }
 
 section h3 {
-    font-size: 1em;
+    font-size: 0.8em;
+}
+
+section h4 {
+    font-size: 0.5em;
 }
 
 header a {
@@ -75,3 +79,6 @@ header a {
     background-color: black;
 }
 
+#background {
+    background-color: black;
+}
