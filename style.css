@@ -75,6 +75,7 @@ section {
     height: 100vh; /* Make it take the full height of the viewport */
     padding: 60px 20px; /* Padding to add spacing around the content */
     display: flex;
+    flex-direction: column;
     justify-content: center; /* Center the content horizontally */
     align-items: center; /* Center the content vertically */
 }
@@ -90,6 +91,7 @@ section {
 #hero .profile-img {
     width: 300px;
     /*height: 200px; */
+    flex-direction: column;
     border-radius: 0%; /*50% */
     /*margin-bottom: 20px; */
 }
