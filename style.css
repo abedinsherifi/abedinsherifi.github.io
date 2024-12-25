@@ -24,7 +24,7 @@ header {
     justify-content: space-between; /* Space out logo and nav */
 }
 
-header img.profile-img {
+header .profile-img {
     width: 50px; /* Adjusting image size */
     height: 50px;
     border-radius: 50%;
@@ -87,7 +87,7 @@ section {
     text-align: center;
 }
 
-#hero img.profile-img {
+#hero .profile-img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -246,7 +246,7 @@ section {
         justify-content: space-around;
     }
 
-    #hero img.profile-img {
+    #hero .profile-img {
         margin-right: 20px;
     }
 
