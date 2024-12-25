@@ -141,12 +141,14 @@ section {
 /* Projects Section */
 #about {
     background-color: #333;
+    height: 100vh; /* Make it take the full height of the viewport */
     padding: 60px 20px;
 }
 
 /* Personal Section */
 #personal {
     background-color: #333;
+    height: 100vh; /* Make it take the full height of the viewport */
     padding: 60px 20px;
 }
 
@@ -184,6 +186,7 @@ section {
 /* Publications Section */
 #publications {
     background-color: #333;
+    height: 100vh; /* Make it take the full height of the viewport */
     padding: 60px 20px;
 }
 
