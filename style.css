@@ -88,9 +88,9 @@ section {
 }
 
 #hero .profile-img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+    width: 300px;
+    /*height: 200px;*/
+    border-radius: 0%; /*50% */
     margin-bottom: 20px;
 }
 
