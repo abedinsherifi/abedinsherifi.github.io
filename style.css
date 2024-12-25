@@ -154,6 +154,26 @@ section {
     font-size: 2.2em;
 }
 
+/* Family Photo Gallery */
+.family-gallery {
+    display: flex;
+    gap: 20px; /* Space between images */
+    justify-content: center; /* Center the images horizontally */
+    margin-top: 20px;
+}
+
+.family-photo {
+    width: 200px; /* Set a fixed width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
+    transition: transform 0.3s ease; /* Smooth scaling effect */
+}
+
+.family-photo:hover {
+    transform: scale(1.05); /* Slight zoom effect when hovered */
+}
+
 #personal img {
     max-width: 100%;
     height: auto;
