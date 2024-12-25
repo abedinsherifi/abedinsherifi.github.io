@@ -28,11 +28,13 @@ header img {
     width: 50px; /* Adjusting image size */
     height: 50px;
     border-radius: 50%;
+    order: 1; /* Moves logo to the right */
 }
 
 header nav {
     display: flex;
     align-items: center;
+    order: 2; /* Ensures nav items come after the logo */
 }
 
 header ul {
@@ -117,13 +119,13 @@ section {
 
 /* Projects Section */
 #about {
-    background-color: #222;
+    background-color: #333;
     padding: 60px 20px;
 }
 
 /* Personal Section */
 #personal {
-    background-color: #222;
+    background-color: #333;
     padding: 60px 20px;
 }
 
@@ -140,7 +142,7 @@ section {
 
 /* Publications Section */
 #publications {
-    background-color: #222;
+    background-color: #333;
     padding: 60px 20px;
 }
 
