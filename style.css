@@ -89,9 +89,9 @@ section {
 
 #hero .profile-img {
     width: 300px;
-    /*height: 200px;*/
+    /*height: 200px; */
     border-radius: 0%; /*50% */
-    margin-bottom: 20px;
+    /*margin-bottom: 20px; */
 }
 
 #hero h1 {
