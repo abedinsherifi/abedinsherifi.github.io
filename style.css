@@ -70,9 +70,9 @@ section {
     color: white;
 }
 
-/* Hero Section */
+/* Hero Section (Home) */
 #hero {
-    background-color: #333;
+    background-color: #333;  /* Add a solid background color instead of the image */
     padding: 100px 20px;
 }
 
@@ -90,8 +90,20 @@ section {
     margin-bottom: 20px;
 }
 
+#hero h1 {
+    font-size: 3.5em;  /* Large font for name */
+    margin-bottom: 10px;
+}
+
 #hero h2 {
-    font-size: 2.5em;
+    font-size: 2.5em;  /* Font size for profession */
+    font-weight: bold; /* Bold text for the profession */
+    margin-bottom: 20px;
+}
+
+#hero h3 {
+    font-size: 2.0em;  /* Font size for "Contact" section */
+    margin-bottom: 10px;
 }
 
 #hero ul {
@@ -103,8 +115,15 @@ section {
     margin: 5px 0;
 }
 
-#hero h1 {
-    font-size: 3.5em;
+#hero a {
+    text-decoration: none;
+    color: blue;  /* Set links to blue */
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+#hero a:hover {
+    color: #0077b5;  /* Slightly different shade of blue on hover */
 }
 
 /* Background Section */
