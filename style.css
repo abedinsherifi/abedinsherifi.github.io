@@ -83,6 +83,7 @@ section {
 #hero .section-inner {
     display: flex;
     flex-direction: column;
+    justify-content: center; /* Center vertically */
     align-items: center;
     text-align: center;
 }
