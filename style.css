@@ -29,7 +29,7 @@ a:hover {
 }
 
 #personal a {
-    color: white;
+    color: blue;
 }
 
 #personal a:hover {
@@ -45,7 +45,7 @@ a:hover {
 }
 
 #about a, #background a {
-    color: white;
+    color: blue;
 }
 
 #about a:hover, #background a:hover {
