@@ -117,13 +117,13 @@ section {
 
 /* Projects Section */
 #about {
-    background-color: #333;
+    background-color: #222;
     padding: 60px 20px;
 }
 
 /* Personal Section */
 #personal {
-    background-color: #444;
+    background-color: #222;
     padding: 60px 20px;
 }
 
@@ -140,7 +140,7 @@ section {
 
 /* Publications Section */
 #publications {
-    background-color: #555;
+    background-color: #222;
     padding: 60px 20px;
 }
 
